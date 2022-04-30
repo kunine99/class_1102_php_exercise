@@ -25,12 +25,12 @@
 
     <div>
         <h2>array</h2>
-        <p><a href="./Array/pra01.php">建立陣列練習</a></p>
-        <p><a href="./Array/pra02.php">利用程式來產生陣列</a></p>
-        <p><a href="./Array/pra03.php">威力彩電腦選號沒有重覆號碼</a></p>
-        <p><a href="./Array/pra04.php">找出500年內的閏年</a></p>
-        <p><a href="./Array/pra05.php">天干地支</a></p>
-        <p><a href="./Array/pra06.php">反轉陣列</a></p>
+        <p><a href="./array/pra01.php">建立陣列練習</a></p>
+        <p><a href="./array/pra02.php">利用程式來產生陣列</a></p>
+        <p><a href="./array/pra03.php">威力彩電腦選號沒有重覆號碼</a></p>
+        <p><a href="./array/pra04.php">找出500年內的閏年</a></p>
+        <p><a href="./array/pra05.php">天干地支</a></p>
+        <p><a href="./array/pra06.php">反轉陣列</a></p>
     </div>
 
     <div>
