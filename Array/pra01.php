@@ -34,7 +34,7 @@ print_r($subject);
 echo "<pre>";
 
 print_r ($name['judy']);
-echo "judy的數學成績為" .$name['judy'][2].分;
+echo "judy的數學成績為" .$name['judy'][2]."分";
 
 echo "<hr>";
 ?>

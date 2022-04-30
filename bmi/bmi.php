@@ -8,14 +8,14 @@
 </head>
 <body>
     <?php
-$bmi=$_GET['weight']/($_GET['height']/100)*($_GET['height'])
-echo "你的BMI值為:".$bmi;
-if($bmi>=18.5 && $bmi<24){
-    echo "你的bmi為:".$bmi;
-}else{
-    echo "經判斷為異常";
-}
-?>
-<a href="index.php?bmi=<?=$bmi;?>">回首頁</a>
+    $bmi=round($_GET['weight']/(($_GET['height']/100)*($_GET['height']/100)),2);
+    echo "你的BMI值為:".$bmi;
+    if($bmi>=18.5 && $bmi<24){
+        echo "經判定為正常";
+    }else{
+        echo "經判定為異常";
+    }
+    ?>
+    <a href="index.php?bmi=<?=$bmi;?>">回首頁</a>
 </body>
 </html>

@@ -13,9 +13,33 @@
         <li>2021-10-5 12:9:5</li>
         <li>2021-10-5 12:09:05</li>
         <li>今天是西元2021年10月5日 上班日(或假日)</li>
-
-
-
     </ul>
+    <?php
+        echo date("Y/m/d");
+    ?>
+    <hr>
+    <?php
+        echo date("m月j日 l");
+    ?>  
+    <hr>
+    <?php
+        echo date("Y-m-d H:i:s");
+        ?>
+    <hr>
+    <?php
+
+        echo date("Y-n-j H:i:s");
+    ?>
+    <hr>
+    <?php
+        $date=date("今天是西元Y年m月d日");
+
+        if(date("N")>=6){
+            echo $date . "假日";
+        }else{
+            echo $date . "上班日";
+
+        }
+    ?>
 </body>
 </html>

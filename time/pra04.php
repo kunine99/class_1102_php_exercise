@@ -55,8 +55,8 @@ $weekStr=['星期天','星期一','星期二','星期三','星期四','星期五
     // 基礎的這樣做....?
     //echo date("Y-m-d"). "" . $weekStr[date("w",$basetime)];
     //只讓他做次數的計算
-    for($i=0;$i<4;$i++){
-        $secs=strtotime("+" ($i*7)."days",$basetime);
+    for($i=0;$i<5;$i++){
+        $secs=strtotime("+".($i*7)."days",$basetime);
         // +0 +7 +14 +21 +28 $i*7
         echo date("Y-m-d",$secs). " " . $weekStr[date("w",$secs)];
         echo "<br>";

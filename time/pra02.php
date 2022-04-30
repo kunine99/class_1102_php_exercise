@@ -16,6 +16,8 @@ $now=strtotime('now');
 $next_bd=(strtotime('2022-09-28')-strtotime('2021-10-25'))/(24*60*60);
 echo "$next_bd";
 echo "<hr>";
+
+
 //下面是老師的
     date_default_timezone_set('Asia/Taipei');
     $now=strtotime('now');
